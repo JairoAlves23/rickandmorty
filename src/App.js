@@ -1,6 +1,8 @@
 import React from 'react';
 
-import Main from './screen/main'
+import Main from '../src/screen'
+
+import './global.css'
 
 function App() {
   return (
