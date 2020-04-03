@@ -10,7 +10,8 @@ const Main = props => {
   const [results, setResults] = useState([]);
   const [info, setInfo] = useState([]);
 
-  const URL = `/?page=${page ? page : 0}`;
+  const URL = 'https://rickandmortyapi.com/api/character';
+  //const URL = `/?page=${page ? page : 0}`;
 
   useEffect(() => {
     Axios.get(`${URL}`).then(resp => {
